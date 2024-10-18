@@ -445,7 +445,7 @@ footer {
     height: 70px;
 }
 
-.footer__social--links,
+.footer__social--link,
 .footer__copyright,
 .footer__logo--popper {
     color: #fff
@@ -507,6 +507,9 @@ footer {
 @media (max-width: 480px) {
     .nav__link:not(:last-child) {
         display: none;
+    }
+    .section__title {
+       font-size: 20px;
     }
 
     .project__description {
